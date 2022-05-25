@@ -1,5 +1,18 @@
 # vue3-ts-vuetify
 
+Template for Vue 3, TypeScript and Vuetify.
+
+## Installation
+
+Use [degit](https://github.com/Rich-Harris/degit) to install this template.
+
+```
+# Clone the template
+npx degit manuelgarciacr/vue3-ts-vuetify project-name
+```
+
+The steps to create this template were:
+
 ## 1) Vue3 install
 
 ### Installing vue selecting manually the features
@@ -180,5 +193,17 @@ export default createVuetify({
         }
     }
 </style>
+```
+
+## 6) GroupCard
+
+### Adding a vue component using the Composition API, typescript, scss and vuetify components and directives.
+
+```
+src/components/GroupCard.vue
+
+Added to:
+
+src/components/HelloWorld.vue
 ```
 
